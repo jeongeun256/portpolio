@@ -1,0 +1,15 @@
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+/* Layout
+***********************/
+#container {padding: 60px 40px;}
+header {width: 420px; margin:auto;}
+#main {margin-left: 420px; margin-top: -25px;overflow: hidden;}
+
+

@@ -1,0 +1,63 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ul,ol{list-style-type:none;}
+a{text-decoration:none;color:#B38B41;}
+fieldset{border:0;}
+hr{
+	clear:both;
+	border:0;
+}
+@font-face {
+    font-family: 'Arita-buri-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family:'Arita-buri-SemiBold';
+    font-weight: 400;
+    font-style: normal;
+	font-size:16px;
+	line-height:26px;
+	color:#B38B41;
+	background-color:#fff9eb;
+	min-width:1200px;
+}
+#bi_guide{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+}
+#bi_guide img{
+	display:inline-block;
+}
+.top_button {	
+	bottom:62px;
+	right:20px;
+	position:fixed;
+}
+.top_button a{
+	display:block;
+	padding:5px 10px;
+	color:#fff9eb;
+	background-color:#f6cfdd;
+}
+.top_button a:hover{
+	background-color:#B38B41;
+}
+.home_button{
+	display:inline-block;
+	width:200px; height:40px;
+	padding:50px 0;
+	}
+.home_button a{
+	display:block;
+	padding:5px 10px;
+	font-size:20px;
+	color:#fff9eb;
+	background-color:#BCD5EA;
+}
+.home_button a:hover{
+	background-color:#B38B41;
+}
